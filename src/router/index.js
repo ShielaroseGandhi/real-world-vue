@@ -32,6 +32,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  mode: 'history', //gets rid of hashtag in url
   routes
 })
 
